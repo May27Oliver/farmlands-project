@@ -1,0 +1,78 @@
+.homepage-content {
+  padding: 100px 100px 300px 100px;
+  background-color: #c9b59c;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-box-title {
+  text-align: left;
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.content-box-main-item {
+  width: 100%;
+  padding: 30px 55px;
+  box-sizing: border-box;
+  background: #f7f0f0;
+}
+.main-pic {
+  width: 100%;
+  background: url(../../assets/img/collections-04.png) no-repeat;
+  background-size: cover;
+  height: 570px;
+}
+
+.main-pic-notes {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  text-align: left;
+}
+
+.content-box-item {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 364px;
+}
+
+.box-item-left {
+  background: url(../../assets/img/collections-06.png) no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+  height: 310px;
+  flex: 1;
+}
+
+.box-item-right {
+  background: url(../../assets/img/collections-07.png) no-repeat;
+  background-size: cover;
+  height: 310px;
+  margin-left: 20px;
+  flex: 1;
+}
+
+.box-item {
+  flex: 0.7;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-item-notes {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+@media (min-width: 1300px) {
+  .main-pic {
+    min-height: 900px;
+  }
+  .content-box-item {
+    flex: 0 0 30vw;
+  }
+}
