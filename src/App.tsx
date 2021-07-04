@@ -6,7 +6,7 @@ import Farmpage from './container/Farmpage';
 import Speciespage from './container/Speciespage';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
