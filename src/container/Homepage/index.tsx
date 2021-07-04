@@ -4,13 +4,16 @@ import styles from './index.module.css';
 import HomepageHeader from 'component/homepageHeader';
 import HomepageContent from 'component/HomepageContent';
 import Footer from 'component/Footer';
-
+import {RouteComponentProps} from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
-const Homepage:React.FC = () => {
+interface RouteParams{
+    path:string
+}
+
+const Homepage:React.FC<RouteComponentProps<RouteParams>> = () => {
     return (
-        // <HomepageHeader/>
         <div className={cx('home-page')}>
             <HomepageHeader/>
             <HomepageContent/>

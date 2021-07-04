@@ -1,12 +1,14 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './index.module.css';
-
+import ContentBox from 'component/ContentBox';
+import { useHistory } from 'react-router-dom';
 const cx = classNames.bind(styles);
 
-const HomepageContent:React.FC = () => {
+const HomepageContent:React.FC = (props) => {
+    const history = useHistory();
     return (
-        <div className={cx('homepage-content')}>
+        <ContentBox classname={cx("homepage-content")}>
             <div className={cx('content-box')}>
                 <div className={cx("main-box-title")}>News !!</div>
                 <div className={cx("content-box-main-item")}>
@@ -17,16 +19,20 @@ const HomepageContent:React.FC = () => {
                 </div>
                 <div className={cx("content-box-item")}>
                     <div className={cx("box-item")}>
-                        <div className={cx("box-item-left")}></div>
+                        <div className={cx("box-item-left")}
+                            onClick={()=>{history.push('/Farmpage')}}
+                        ></div>
                         <div className={cx('box-item-notes')}>MORE FARMLAND</div>
                     </div>
                     <div className={cx("box-item")}>
-                        <div className={cx("box-item-right")}></div>
+                        <div className={cx("box-item-right")}
+                            onClick={()=>{history.push('/Personpage')}}
+                        ></div>
                         <div className={cx('box-item-notes')}>MORE COLLECTOR</div>
                     </div>
                 </div>
             </div>
-        </div>
+        </ContentBox>
     );
 }
 

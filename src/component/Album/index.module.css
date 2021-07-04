@@ -1,0 +1,12 @@
+.album-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+
+  .album-pic {
+    width: 400px;
+    height: 400px;
+  }
+}

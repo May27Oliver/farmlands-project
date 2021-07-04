@@ -4,9 +4,11 @@ import styles from './index.module.css';
 
 const cx = classNames.bind(styles);
 
-const SidepageHeader:React.FC = () => {
+const SidepageHeader:React.FC = ({children}) => {
     return (
-        <div></div>
+        <div className={cx('side-page-header')}>
+            {children}
+        </div>
     );
 }
 

@@ -1,0 +1,12 @@
+.side-page-header {
+  min-height: 342px;
+  max-height: 500px;
+  background: url(../../assets/img/collections-15.png) no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1500px) {
+  .side-page-header {
+    min-height: 450px;
+  }
+}
