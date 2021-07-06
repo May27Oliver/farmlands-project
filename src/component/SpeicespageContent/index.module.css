@@ -3,5 +3,27 @@
 }
 
 .speiceInfo-box {
-  height: 350px;
+  height: 500px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.speiceInfo-card {
+  flex: 1;
+}
+
+.pic-selected {
+  height: 100%;
+  width: 100%;
+  background: url(../../assets/img/collections-33.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.relative-report {
+  height: 100%;
+  width: 100%;
+  background: url(../../assets/img/collections-48.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }

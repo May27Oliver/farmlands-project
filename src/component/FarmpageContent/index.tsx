@@ -18,7 +18,17 @@ const SidepageContent:React.FC = () => {
 const Mapbox:React.FC = () => {
     return(
         <div className={cx("map-box")}>
-
+            <div className={cx("map-icon-box")}>
+                <div className={cx("map-icon")}></div>
+            </div>
+            <div className={cx("map-info-box")}>
+                <div className={cx("location")}>
+                    田園位置：宜蘭員山
+                    <a href="">google map</a>
+                </div>
+                <div className={cx("geographic-info")}>水稻田</div>
+                <div className={cx("map-project")}>耕作者：農田裡的科學計畫</div>
+            </div>
         </div>
     )
 }

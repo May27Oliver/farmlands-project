@@ -18,7 +18,12 @@ const SpeicespageContent:React.FC = () => {
 const SpeiceInfo:React.FC = () => {
     return(
         <div className={cx("speiceInfo-box")}>
-
+            <div className={cx("speiceInfo-card")}>
+                <div className={cx("pic-selected")}></div>
+            </div>
+            <div className={cx("speiceInfo-card")}>
+                <div className={cx("relative-report")}></div>
+            </div>
         </div>
     )
 }

@@ -4,4 +4,45 @@
 
 .personfile-box {
   height: 350px;
+  display: flex;
+}
+
+.personfile-left-info,
+.personfile-right-info {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 50px 0 0 0;
+}
+
+.personfile-left-info {
+  justify-content: flex-end;
+}
+
+.personfile-right-info {
+  flex-direction: column;
+  text-align: left;
+}
+
+.personal-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.personal-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.personal-name {
+  font-size: 25px;
+}
+
+.personal-info-card {
+  line-height: 30px;
+  font-size: 18px;
 }

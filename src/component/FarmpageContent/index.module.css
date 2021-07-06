@@ -1,6 +1,43 @@
 .farm-content {
   padding: 0;
 }
+
 .map-box {
   height: 350px;
+  display: flex;
+}
+
+.map-icon-box {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 30px 0 0;
+}
+
+.map-icon {
+  width: 200px;
+  height: 280px;
+  background: url(../../assets/img/collections-18.png) no-repeat;
+  background-size: cover;
+}
+
+.map-info-box {
+  flex: 1;
+  text-align: left;
+  padding: 30px 0 0 0;
+}
+
+.location {
+  line-height: 30px;
+}
+
+.location a {
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.geographic-info {
+}
+
+.map-project {
 }
