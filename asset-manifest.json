@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/farmlands-project/static/css/main.02255074.chunk.css",
-    "main.js": "/farmlands-project/static/js/main.28bf03a5.chunk.js",
-    "main.js.map": "/farmlands-project/static/js/main.28bf03a5.chunk.js.map",
+    "main.css": "/farmlands-project/static/css/main.99c85097.chunk.css",
+    "main.js": "/farmlands-project/static/js/main.c95226b9.chunk.js",
+    "main.js.map": "/farmlands-project/static/js/main.c95226b9.chunk.js.map",
     "runtime-main.js": "/farmlands-project/static/js/runtime-main.9629f5cd.js",
     "runtime-main.js.map": "/farmlands-project/static/js/runtime-main.9629f5cd.js.map",
     "static/js/2.538f994a.chunk.js": "/farmlands-project/static/js/2.538f994a.chunk.js",
@@ -12,9 +12,9 @@
     "index.html": "/farmlands-project/index.html",
     "service-worker.js": "/farmlands-project/service-worker.js",
     "service-worker.js.map": "/farmlands-project/service-worker.js.map",
-    "static/css/main.02255074.chunk.css.map": "/farmlands-project/static/css/main.02255074.chunk.css.map",
+    "static/css/main.99c85097.chunk.css.map": "/farmlands-project/static/css/main.99c85097.chunk.css.map",
     "static/js/2.538f994a.chunk.js.LICENSE.txt": "/farmlands-project/static/js/2.538f994a.chunk.js.LICENSE.txt",
-    "static/media/index.module.css": "/farmlands-project/static/media/collections-15.ca70d6f8.png",
+    "static/media/index.module.css": "/farmlands-project/static/media/collections-48.8101eea4.png",
     "static/media/collections-05.jpg": "/farmlands-project/static/media/collections-05.8ef32abb.jpg",
     "static/media/collections-28.jpg": "/farmlands-project/static/media/collections-28.378a1732.jpg",
     "static/media/collections-29.jpg": "/farmlands-project/static/media/collections-29.ff594623.jpg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.9629f5cd.js",
     "static/js/2.538f994a.chunk.js",
-    "static/css/main.02255074.chunk.css",
-    "static/js/main.28bf03a5.chunk.js"
+    "static/css/main.99c85097.chunk.css",
+    "static/js/main.c95226b9.chunk.js"
   ]
 }
