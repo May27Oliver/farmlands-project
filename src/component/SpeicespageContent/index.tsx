@@ -6,26 +6,28 @@ import Album from 'component/Album';
 
 const cx = classNames.bind(styles);
 
-const SpeicespageContent:React.FC = () => {
+interface SpeicespageContentType {
+    selectedPic:string
+}
+
+const SpeicespageContent:React.FC<SpeicespageContentType> = ({
+    selectedPic
+}) => {
     return (
         <ContentBox classname={cx("speices-content")}>
-            <SpeiceInfo/>
+            <div className={cx("speiceInfo-box")}>
+                <div className={cx("speiceInfo-card")}>
+                    <div className={cx("pic-selected")}>
+                        <img src={selectedPic} alt="" />
+                    </div>
+                </div>
+                <div className={cx("speiceInfo-card")}>
+                    <div className={cx("relative-report")}></div>
+                </div>
+            </div>
             <Album/>
         </ContentBox>
     );
-}
-
-const SpeiceInfo:React.FC = () => {
-    return(
-        <div className={cx("speiceInfo-box")}>
-            <div className={cx("speiceInfo-card")}>
-                <div className={cx("pic-selected")}></div>
-            </div>
-            <div className={cx("speiceInfo-card")}>
-                <div className={cx("relative-report")}></div>
-            </div>
-        </div>
-    )
 }
 
 export default SpeicespageContent;

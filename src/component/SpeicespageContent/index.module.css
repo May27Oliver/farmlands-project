@@ -15,9 +15,11 @@
 .pic-selected {
   height: 100%;
   width: 100%;
-  background: url(../../assets/img/collections-33.jpg) no-repeat;
-  background-size: contain;
-  background-position: center;
+}
+
+.pic-selected img {
+  height: 100%;
+  width: 100%;
 }
 
 .relative-report {
