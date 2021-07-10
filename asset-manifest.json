@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/farmlands-project/static/css/main.99c85097.chunk.css",
-    "main.js": "/farmlands-project/static/js/main.10123061.chunk.js",
-    "main.js.map": "/farmlands-project/static/js/main.10123061.chunk.js.map",
-    "runtime-main.js": "/farmlands-project/static/js/runtime-main.9629f5cd.js",
-    "runtime-main.js.map": "/farmlands-project/static/js/runtime-main.9629f5cd.js.map",
-    "static/js/2.538f994a.chunk.js": "/farmlands-project/static/js/2.538f994a.chunk.js",
-    "static/js/2.538f994a.chunk.js.map": "/farmlands-project/static/js/2.538f994a.chunk.js.map",
-    "static/js/3.292b8cff.chunk.js": "/farmlands-project/static/js/3.292b8cff.chunk.js",
-    "static/js/3.292b8cff.chunk.js.map": "/farmlands-project/static/js/3.292b8cff.chunk.js.map",
+    "main.css": "/farmlands-project/static/css/main.195008dc.chunk.css",
+    "main.js": "/farmlands-project/static/js/main.3b38550b.chunk.js",
+    "main.js.map": "/farmlands-project/static/js/main.3b38550b.chunk.js.map",
+    "runtime-main.js": "/farmlands-project/static/js/runtime-main.ccdc9949.js",
+    "runtime-main.js.map": "/farmlands-project/static/js/runtime-main.ccdc9949.js.map",
+    "static/js/2.5abb96a5.chunk.js": "/farmlands-project/static/js/2.5abb96a5.chunk.js",
+    "static/js/2.5abb96a5.chunk.js.map": "/farmlands-project/static/js/2.5abb96a5.chunk.js.map",
+    "static/js/3.fedb1a1f.chunk.js": "/farmlands-project/static/js/3.fedb1a1f.chunk.js",
+    "static/js/3.fedb1a1f.chunk.js.map": "/farmlands-project/static/js/3.fedb1a1f.chunk.js.map",
     "index.html": "/farmlands-project/index.html",
     "service-worker.js": "/farmlands-project/service-worker.js",
     "service-worker.js.map": "/farmlands-project/service-worker.js.map",
-    "static/css/main.99c85097.chunk.css.map": "/farmlands-project/static/css/main.99c85097.chunk.css.map",
-    "static/js/2.538f994a.chunk.js.LICENSE.txt": "/farmlands-project/static/js/2.538f994a.chunk.js.LICENSE.txt",
+    "static/css/main.195008dc.chunk.css.map": "/farmlands-project/static/css/main.195008dc.chunk.css.map",
+    "static/js/2.5abb96a5.chunk.js.LICENSE.txt": "/farmlands-project/static/js/2.5abb96a5.chunk.js.LICENSE.txt",
     "static/media/index.module.css": "/farmlands-project/static/media/collections-48.8101eea4.png",
     "static/media/collections-05.jpg": "/farmlands-project/static/media/collections-05.8ef32abb.jpg",
     "static/media/collections-28.jpg": "/farmlands-project/static/media/collections-28.378a1732.jpg",
@@ -37,9 +37,9 @@
     "static/media/collections-55.jpg": "/farmlands-project/static/media/collections-55.66fdcf0f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9629f5cd.js",
-    "static/js/2.538f994a.chunk.js",
-    "static/css/main.99c85097.chunk.css",
-    "static/js/main.10123061.chunk.js"
+    "static/js/runtime-main.ccdc9949.js",
+    "static/js/2.5abb96a5.chunk.js",
+    "static/css/main.195008dc.chunk.css",
+    "static/js/main.3b38550b.chunk.js"
   ]
 }
